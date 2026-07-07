@@ -1,0 +1,45 @@
+nav {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #fffafa;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #410303;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #f0f0f0;
+}
+
+.profile ::picker-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #410808;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
