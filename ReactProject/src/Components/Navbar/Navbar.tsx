@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import { Text } from '../Text'
+import { Text } from '../Text/Text'
 
 export default function Navbar() {
 

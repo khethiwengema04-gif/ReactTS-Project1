@@ -1,0 +1,6 @@
+loaded_h_0(function(_){var window=this;
+_.v("Pwo57d");
+var tis;tis=function(a,{dA:b}){if(b){var c;(c=a.oa)==null||c.unsubscribe();c=b.Pa(({count:d})=>{a.Aa.value={lTc:d}});a.oa={model:b,unsubscribe:c}}else{let d;(d=a.oa)==null||d.unsubscribe();a.oa=null}};_.uis=class extends _.xi{static Ta(){return{model:{EIb:_.KKo}}}constructor(a){super();this.oa=null;this.Aa=_.aZ({lTc:void 0});a.model.EIb.zLd(b=>{tis(this,b)})}j$a(a){this.Aa.subscribe(a)}};_.ns(_.UAr,_.uis);
+_.x();
+});
+// Google Inc.
