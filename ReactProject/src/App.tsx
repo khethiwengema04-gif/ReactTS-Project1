@@ -1,17 +1,20 @@
 import './App.css'
-import Navbar from './Components/Text/Navbar/Navbar'
 import { Text } from './Components/Text/Text'
-// import Footer from './Components/Footer/Footer'
+import  Navbar from './Components/Text/Navbar/Navbar'
+import { Hero } from './Components/Hero/Hero'
+import { Footer } from './Components/footer/Footer'
 
 
 function App() {
 
   return (
-    <div>
-      <div>
+    <div id= 'app-container'>
+      <div id='scrollable'>
         <Navbar />
+         <Hero/>
+         
       </div>
-      {/* <Footer /> */}
+      <Footer/> 
     </div>
   )
 }
