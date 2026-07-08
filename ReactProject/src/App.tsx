@@ -1,17 +1,18 @@
 import './App.css'
+import Navbar from './Components/Text/Navbar/Navbar'
 import { Text } from './Components/Text/Text'
+// import Footer from './Components/Footer/Footer'
+
 
 function App() {
 
   return (
-    <>
-      <Text varient='h1'>Hi my name is kety</Text>
-      <Text varient='h2'>Hi there</Text>
-      <Text varient='h3'>Hi there</Text>
-      <Text varient='p1'>Hi there</Text>
-      <Text varient='p2'>Hi there</Text>
-      <Text varient='span'>Hi there</Text>
-    </>
+    <div>
+      <div>
+        <Navbar />
+      </div>
+      {/* <Footer /> */}
+    </div>
   )
 }
 

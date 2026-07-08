@@ -2,14 +2,13 @@ import React from 'react'
 import styles from './Navbar.module.css'
 import { Text } from '../Text'
 
-export const Navbar: React.FC<any> = ({ name, surname }) => {
-    console.log({ name, surname })
+export default function Navbar() {
 
 
     return (
         <nav>
             <div className={styles.content}>
-                <Text varient={'h1'} >Furniture</Text>
+                <Text varient={'h1'} style={{ margin: 0 }} >Furniture</Text>
                 <a href='/#' className={styles.link}>Home</a>
                 <a href='/#' className={styles.link}>Contact</a>
                 <a href='/#' className={styles.link}>About</a>
