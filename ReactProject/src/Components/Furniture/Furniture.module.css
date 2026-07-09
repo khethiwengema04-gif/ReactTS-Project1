@@ -1,0 +1,43 @@
+.left {
+
+    height: 50vh;
+    width: 50vw;
+    /* border: 5px solid greenyellow; */
+    background-color: rgb(255, 195, 127);
+}
+
+.left img {
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+}
+
+.right {
+
+    align-items: right;
+    flex-direction: column;
+    display: flex;
+
+    /* border: 5px solid greenyellow; */
+}
+
+.container {
+    /* border: 5px solid greenyellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+
+
+}
+
+.button {
+    width: 80px;
+    height: 20px;
+    background-color: rgb(157, 128, 32);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}

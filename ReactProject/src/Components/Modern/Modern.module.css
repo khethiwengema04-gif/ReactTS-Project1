@@ -1,0 +1,17 @@
+.imageStyle {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 80px;
+    height: 20px;
+    background-color: rgb(92, 30, 5);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
