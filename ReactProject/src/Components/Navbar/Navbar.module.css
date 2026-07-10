@@ -2,7 +2,7 @@ nav {
     top: 0;
     height: 70px;
     width: 100%;
-    background-color: #eed3d3;
+    background-color: #fff;
 }
 
 .content {
@@ -22,7 +22,7 @@ nav {
 
 .link {
     text-decoration: none;
-    color: #410303;
+    color: rgb(44, 113, 122);
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
@@ -30,14 +30,14 @@ nav {
 }
 
 .link:hover {
-    background-color: #e7a9a9;
+    background-color: #18bec4;
 }
 
 .profile ::picker-icon {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: #410808;
+    background-color: #247fc5;
     display: flex;
     align-items: center;
     cursor: pointer;

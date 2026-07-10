@@ -18,8 +18,8 @@ function App() {
         <Furniture />
         <Modern />
 
+        <Footer />
       </div>
-      <Footer />
     </div>
   )
 }

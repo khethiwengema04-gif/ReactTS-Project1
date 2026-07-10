@@ -4,14 +4,14 @@ import style from "./Modern.module.css";
 export const Modern = () => {
     return (
         <div>
-            <div className='table-container'>
+            <div className={style.container}>
                 <div style={{
-                    backgroundImage: `url(${Last})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    width: "100%",
-                    height: "300px",
-                    marginTop: "40px",
+                    // backgroundImage: `url(${Last})`,
+                    // backgroundSize: "cover",
+                    // backgroundPosition: "center",
+                    // width: "100%",
+                    // height: "300px",
+                    // marginTop: "40px",
                 }}>
                     <img src={Last} alt="Last" style={{ width: "100%", height: "auto" }} />
                     <button className={style.button}>
@@ -20,7 +20,6 @@ export const Modern = () => {
                 </div>
             </div>
         </div>
-
 
 
     )

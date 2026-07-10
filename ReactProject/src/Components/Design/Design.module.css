@@ -7,9 +7,9 @@
 }
 
 .right img {
-    height: 50vh;
+    height: 70vh;
     width: 50vw;
-    margin: auto;
+    /* margin-top: 50px; */
 }
 
 .left {
@@ -32,7 +32,7 @@
 .button {
     width: 80px;
     height: 20px;
-    background-color: rgb(140, 37, 16);
+    background-color: rgb(30, 8, 81);
     color: white;
     align-items: center;
     justify-content: center;

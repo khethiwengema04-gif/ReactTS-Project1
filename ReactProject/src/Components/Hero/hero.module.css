@@ -1,26 +1,28 @@
 .imageStyle {
-padding: 10px;
-width: 100%;
-margin: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.button{
-width: 80px;
-height: 28px;
-background-color: rgb(136, 53, 5);
-color: rgb(221, 195, 195);
-align-items: center;
-justify-content: center;
-cursor: pointer;
-/* border-radius: 8px; */
-display: block;
-margin-left: 400px;
+
+.button {
+    width: 80px;
+    height: 28px;
+    background-color: rgb(6, 18, 91);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 8px; */
+    display: block;
+    margin-left: 400px;
 }
-.buttonStyle{
-margin-left: 200px;
-margin-top: 20p;
-align-items: center;
-height: 30px;
+
+.buttonStyle {
+    margin-left: 200px;
+    margin-top: 20p;
+    align-items: center;
+    height: 30px;
 }
