@@ -31,6 +31,29 @@ footer {
     justify-content: center;
 }
 
+.Facebook {
+    width: 20px;
+    height: 20px;
+    align-items: bottom-right;
+    justify-content: center;
+
+}
+
+.TikTok {
+    width: 20px;
+    height: 20px;
+    align-items: bottom-right;
+    justify-content: center;
+}
+
+.Instagram {
+    width: 20px;
+    height: 20px;
+    align-items: bottom-right;
+    justify-content: center;
+}
+
+
 .border {
     border: solid red;
 

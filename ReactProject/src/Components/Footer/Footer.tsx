@@ -2,7 +2,9 @@ import React from 'react'
 import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
 import { Text } from '../Text/Text'
-
+import Facebook from "../../assets/Facebook.jpeg";
+import TikTok from "../../assets/TikTok.jpeg";
+import Instagram from "../../assets/Instagram.jpeg";
 
 
 export const Footer = () => {
@@ -37,6 +39,11 @@ export const Footer = () => {
           </button>
         </div>
       </ContentContainer>
+
+      <img src={Facebook} alt="Facebook photo" className={styles['Facebook']} />
+      <img src={TikTok} alt="TikTok photo" className={styles['TikTok']} />
+      <img src={Instagram} alt="Instagram photo" className={styles['Instagram']} />
+
     </footer>
   )
 }
