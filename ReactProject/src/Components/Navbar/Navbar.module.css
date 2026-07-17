@@ -1,8 +1,9 @@
 nav {
     top: 0;
-    height: 60px;
+    height: 100px;
     width: 100%;
     background-color: #fff;
+    border: solid #247fc5;
 }
 
 .content {
@@ -17,7 +18,7 @@ nav {
 .links {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .link {
@@ -41,4 +42,27 @@ nav {
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+
+@media(max-width: 600px) {
+    .content {
+        flex-direction: column;
+        height: fit-content;
+
+    }
+
+    .nav {
+        height: 150px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .c {
+        max-width: 600px;
+    }
 }
