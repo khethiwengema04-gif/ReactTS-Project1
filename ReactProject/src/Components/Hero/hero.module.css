@@ -12,18 +12,19 @@
     width: 80px;
     height: 28px;
     background-color: rgba(3, 17, 112, 0.801);
-    color: #fff;
+    color: white;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 20px;
     display: block;
     margin-left: 400px;
+
 }
 
 .buttonStyle {
     margin-left: 200px;
-    margin-top: 20p;
+    margin-top: 20px;
     align-items: center;
     height: 30px;
 }
