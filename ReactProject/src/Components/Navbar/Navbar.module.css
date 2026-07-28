@@ -1,6 +1,6 @@
 nav {
     top: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: #fff;
     /* border: solid #247fc5; */
@@ -76,7 +76,7 @@ nav {
     }
 
     .nav {
-        height: 180px;
+        height: 100px;
         top: 0;
     }
 

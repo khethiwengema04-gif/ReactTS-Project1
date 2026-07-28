@@ -12,7 +12,7 @@ export const Hero = () => {
             backgroundSize: "cover",
             backgroundPosition: "center",
             width: "100%",
-            height: "300px",
+            height: "1000px",
             marginTop: "40px",
           }}
         >
