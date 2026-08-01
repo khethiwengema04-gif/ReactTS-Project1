@@ -39,3 +39,27 @@
     border-radius: 20px;
 
 }
+
+@media(max-width: 390px) {
+    .right img {
+        height: 180vh;
+        width: 46vw;
+        margin: auto;
+    }
+}
+
+@media(max-width: 414px) {
+    .right img {
+        height: 80vh;
+        width: 46vw;
+        margin: auto;
+    }
+}
+
+@media(max-width: 600px) {
+    .right img {
+        height: 50vh;
+        width: 46vw;
+        margin: auto;
+    }
+}

@@ -38,3 +38,15 @@
     justify-content: center;
     border-radius: 20px;
 }
+
+@media(max-width: 600px) {
+    .left img {
+        height: 50vh;
+        width: 50vw;
+        margin: auto;
+    }
+
+    .content {
+        max-width: 600px;
+    }
+}

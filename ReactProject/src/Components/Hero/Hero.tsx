@@ -1,5 +1,6 @@
 import './hero.module.css'
 import FrontP from "../../assets/1st-Pic.png"
+import style from "./hero.module.css"
 
 
 export const Hero = () => {
@@ -12,9 +13,10 @@ export const Hero = () => {
             backgroundSize: "cover",
             backgroundPosition: "center",
             width: "100%",
-            height: "1000px",
+            height: "600px",
             marginTop: "40px",
           }}
+        // <img src={FrontP} alt="FrontP" style={{width:"100%",height: "auto" }}/>
         >
           <div>
             <button className='button'>
@@ -27,6 +29,6 @@ export const Hero = () => {
       <div className="section">
         <div className="container"></div>
       </div>
-    </div>
+    </div >
   );
 };

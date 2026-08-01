@@ -35,7 +35,7 @@ footer {
 .Facebook {
     width: 20px;
     height: 20px;
-    align-items: bottom-right;
+    align-items: bottom-left;
     justify-content: center;
 
 }
@@ -43,14 +43,14 @@ footer {
 .TikTok {
     width: 20px;
     height: 20px;
-    align-items: bottom-right;
+    align-items: bottom-left;
     justify-content: center;
 }
 
 .Instagram {
     width: 20px;
     height: 20px;
-    align-items: bottom-right;
+    align-items: bottom-left;
     justify-content: center;
 }
 
@@ -73,7 +73,6 @@ footer {
 
     }
 }
-
 
 
 @media(max-width: 1280px) {
