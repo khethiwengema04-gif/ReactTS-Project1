@@ -1,39 +1,65 @@
-.imageStyle {
-    padding: 10px;
+.hero {
     width: 100%;
-    height: 50px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
+.imageStyle {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px 7%;
+    box-sizing: border-box;
 
-.button {
-    width: 80px;
-    height: 28px;
-    background-color: rgba(3, 17, 112, 0.801);
-    color: white;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 20px;
-    display: block;
-    margin-left: 400px;
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .buttonStyle {
-    margin-left: 200px;
-    margin-top: 20px;
-    align-items: center;
-    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
+.button {
+    min-width: 110px;
+    height: 40px;
+    padding: 0 20px;
+    background-color: rgba(3, 17, 112, 0.85);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
 
-/* @media(max-width: 1280px) {
-    hero {
-        height: 80px;
+.button:hover {
+    background-color: #18bec4;
+}
 
+/* Tablet */
+@media (max-width: 768px) {
+    .imageStyle {
+        height: 350px;
+        padding: 20px;
+    }
+}
 
-    } */
+/* Mobile */
+@media (max-width: 600px) {
+    .imageStyle {
+        height: 230px;
+        padding: 15px;
+        background-position: center;
+    }
+
+    .button {
+        min-width: 95px;
+        height: 35px;
+        font-size: 12px;
+    }
+}

@@ -1,6 +1,7 @@
 # UI-CHALLENGE
 
 # Project description
+```UI-Challenge which is a sample, the website built using React,TypeScript,HTML,and CSS Modules.It was created using the components to complete the task and be responsive.This UI-Challenge is based on React dev techniques.
 
 
 

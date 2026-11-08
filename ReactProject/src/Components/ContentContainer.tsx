@@ -6,7 +6,12 @@ type Props = {
 
 export const ContentContainer: React.FC<Props> = ({ children }) => {
     return (
-        <div style={{ maxWidth: 1200, padding: 10 }}>
+        <div style={{
+            width: '100%',
+            maxWidth: '1150px',
+            margin: '0 auto',
+            boxSizing: 'border-box'
+        }}>
             {children}
         </div>
     )
